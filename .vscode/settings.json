@@ -1,0 +1,19 @@
+{
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showKeywords": false,
+    "[python]": {
+        "editor.wordBasedSuggestions": "matchingDocuments"
+    },
+    "python.linting.enabled": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.extraPaths": [
+      ".venv/lib/python3.10.7/site-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+      ".venv/lib/python3.10.7/site-packages"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+}

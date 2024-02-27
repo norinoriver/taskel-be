@@ -1,0 +1,16 @@
+{
+    // Let's look at this document that you get detail of this information.: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: local debug",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": ["api.main:app", "--reload"],
+            // "program": "${file}",
+            // "console": "integratedTerminal",
+            // "justMyCode": true
+        }
+    ]
+}
